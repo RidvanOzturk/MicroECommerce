@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicroECommerce.Catalog.Contracts\MicroECommerce.Catalog.Contracts.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Catalog.Domain\MicroECommerce.Catalog.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
