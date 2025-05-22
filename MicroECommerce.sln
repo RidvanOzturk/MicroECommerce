@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroECommerce.Catalog.Doma
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroECommerce.Catalog.Infrastructure", "MicroECommerce.Catalog.Infrastructure\MicroECommerce.Catalog.Infrastructure.csproj", "{6B82434E-F7E9-4069-A289-3E77B4CC816A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroECommerce.Catalog.Contracts", "MicroECommerce.Catalog.Contracts\MicroECommerce.Catalog.Contracts.csproj", "{6DC81247-81EC-405B-A38F-70476B6D6D7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6B82434E-F7E9-4069-A289-3E77B4CC816A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B82434E-F7E9-4069-A289-3E77B4CC816A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B82434E-F7E9-4069-A289-3E77B4CC816A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC81247-81EC-405B-A38F-70476B6D6D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC81247-81EC-405B-A38F-70476B6D6D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC81247-81EC-405B-A38F-70476B6D6D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC81247-81EC-405B-A38F-70476B6D6D7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{95843AC9-CFF6-46CD-A311-313FFA06D75C} = {57A66DCA-8D5D-458A-B1C5-BB6B072E9F21}
 		{5F4B16A9-90D1-47FE-926B-97CD54C8FE45} = {57A66DCA-8D5D-458A-B1C5-BB6B072E9F21}
 		{6B82434E-F7E9-4069-A289-3E77B4CC816A} = {57A66DCA-8D5D-458A-B1C5-BB6B072E9F21}
+		{6DC81247-81EC-405B-A38F-70476B6D6D7E} = {57A66DCA-8D5D-458A-B1C5-BB6B072E9F21}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B7B5518A-1A92-4EEC-9E19-2427A53AC39B}
