@@ -1,0 +1,6 @@
+@MicroECommerce.Order.Api_HostAddress = http://localhost:5141
+
+GET {{MicroECommerce.Order.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
