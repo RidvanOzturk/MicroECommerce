@@ -13,4 +13,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MicroECommerce.Shared.Contracts\MicroECommerce.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Catalog.Application\MicroECommerce.Catalog.Application.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Catalog.Contracts\MicroECommerce.Catalog.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

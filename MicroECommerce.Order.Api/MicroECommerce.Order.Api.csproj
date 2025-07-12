@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MicroECommerce.Shared.Contracts\MicroECommerce.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Order.Application\MicroECommerce.Order.Application.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Order.Contracts\MicroECommerce.Order.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>

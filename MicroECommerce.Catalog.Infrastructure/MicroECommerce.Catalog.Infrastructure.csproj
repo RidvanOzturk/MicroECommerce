@@ -7,8 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\MicroECommerce.Shared.Contracts\MicroECommerce.Shared.Contracts.csproj" />
     <ProjectReference Include="..\MicroECommerce.Catalog.Contracts\MicroECommerce.Catalog.Contracts.csproj" />
     <ProjectReference Include="..\MicroECommerce.Catalog.Domain\MicroECommerce.Catalog.Domain.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Shared.Infrastructure\MicroECommerce.Shared.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

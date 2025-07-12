@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MicroECommerce.Shared.Contracts\MicroECommerce.Shared.Contracts.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Order.Contracts\MicroECommerce.Order.Contracts.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Order.Domain\MicroECommerce.Order.Domain.csproj" />
+    <ProjectReference Include="..\MicroECommerce.Shared.Infrastructure\MicroECommerce.Shared.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
